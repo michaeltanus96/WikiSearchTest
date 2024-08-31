@@ -17,6 +17,28 @@ You need to install a ChromeDriver compatible with your current Chrome browser v
 
 This project uses Maven for dependency management. Make sure you have Maven installed and configured.
 
+## Running the Tests
+
+### 1. Clone the Repository
+
+First, clone this repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/wikipedia-search-automation.git
+cd wikipedia-search-automation
+```
+
+### 2. Build the project
+`mvn clean install`
+
+### 3. Run the Tests
+`mvn test`
+
+Alternatively, if you're using an IDE like IntelliJ IDEA or Eclipse, you can run the results directly from the IDE
+
+### 4. View the Results
+After the tests run, you can view the results in the console or in the generated Cucumber reports.
+
 ## Test Scenarios
 
 ### 1. Valid Search Term
@@ -52,25 +74,3 @@ This project uses Maven for dependency management. Make sure you have Maven inst
 - **Given** I open the browser and navigate to the first page of search results
 - **When** I click on the "next 20" link
 - **Then** I should see a different set of search results
-
-## Running the Tests
-
-### 1. Clone the Repository
-
-First, clone this repository to your local machine:
-
-```bash
-git clone https://github.com/your-username/wikipedia-search-automation.git
-cd wikipedia-search-automation
-```
-
-### 2. Build the project
-`mvn clean install`
-
-### 3. Run the Tests
-`mvn test`
-
-Alternatively, if you're using an IDE like IntelliJ IDEA or Eclipse, you can run the results directly from the IDE
-
-### 4. View the Results
-After the tests run, you can view the results in the console or in the generated Cucumber reports.
