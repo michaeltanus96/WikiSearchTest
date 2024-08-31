@@ -61,13 +61,15 @@ First, clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/your-username/wikipedia-search-automation.git
-cd wikipedia-search-automation```
+cd wikipedia-search-automation
+```
 
 ### 2. Build the project
 `mvn clean install`
 
 ### 3. Run the Tests
 `mvn test`
+
 Alternatively, if you're using an IDE like IntelliJ IDEA or Eclipse, you can run the results directly from the IDE
 
 ### 4. View the Results
